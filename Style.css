@@ -1,0 +1,1418 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type:none;
+  
+}
+body{
+  background-color:#00172D;
+}
+.color{
+  width:100%;
+  height:80px;
+  background-color:#00172D;
+  /* background-color:#000B18; */
+  position:relative;
+}
+/* ეს არის ბეთლაივის ტექსტის დასაწყისი */
+.text{
+  position:absolute;
+  font-family: 'Courier New', Courier, monospace;
+  color:yellow;
+  left:20px;
+  top:30px;
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+}
+/* ეს არის ბეთლაივის ტექსტის დასასრული */
+
+/* ეს არის ჩამონათვალი თუ რა ჩამოანთვალი გააჩნია */
+.list{
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.list a{
+  margin-top:-84px;
+  font-size:15px;
+  transform:translateX(-290px);
+  color:gray;
+  font-weight:bold;
+  padding:15px;
+}
+.list a:hover{
+  color:white;
+  font-weight:bold;
+  transition:all 0,3s;
+}
+/* ეს არის ჩამონათვალი თუ რა ჩამოანთვალი გააჩნია / */
+
+
+/* მიკროფონის აიქონის  დასაწყისი */
+.icons .box{
+  width:35px;
+  height:35px;
+  background-color: red;
+  font-weight:bold;
+  border-radius:10px;
+}
+.icons{
+  position: absolute;
+  left:790px;
+  top:20px;
+}
+.icons i{
+  font-size:20px;
+  color:white;
+  margin-left:8px;
+  margin-top:6px;
+}
+.icons .txt{
+  top:-9px;
+  left:24px;
+  position: absolute;
+  width:17px;
+  height:17px;
+  background-color:white;
+  border-radius:25%;
+}
+.icons .txt .box1{
+  color:red;
+  position:absolute;
+  left:5px;
+  font-size:15px;
+}
+/* მიკროფონის აიქონის  დასასრული */
+
+.form{
+  position: relative;
+  margin-left:860px;
+  margin-top:-60px;
+
+}
+.form .name{
+  width:125px;
+  height:40px;
+  border-radius:20px;
+  text-indent:15px;
+  background-color:#00172D;
+  color:gray;
+  font-weight:bold;
+}
+
+.box3{
+  cursor:pointer;
+  transform:translateY(-380px);
+  right:560px;
+  top:5px;
+  width:30px;
+  height:30px;
+  background-color:#00172D;;
+  border-radius:20px;
+  position: absolute;
+  margin-top:400px;
+}
+.box3 .fa-sharp{
+  margin-left:8px;
+  margin-top:6px;
+  color:white;
+  font-weight:bold;
+}
+
+/* ინფათ სახელის დასასრულიი */
+
+/* ინფათ პაროლის გაკეთება */
+.form1{
+  position:relative;
+  margin-top:-40px;
+  transform: translateX(995px);
+}
+.form1 .pass{
+  width:125px;
+  height:40px;
+  border-radius:20px;
+  text-indent:15px;
+  background-color:#00172D;
+  color:gray;
+  font-weight:bold;
+}
+.box4{
+  cursor:pointer;
+  transform:translateY(-380px);
+  right:425px;
+  top:5px;
+  width:30px;
+  height:30px;
+  background-color:#00172D;;
+  border-radius:20px;
+  position: absolute;
+  margin-top:400px;
+}
+.box4 .fa-sharp{
+  margin-left:8px;
+  margin-top:6px;
+  color:white;
+  font-weight:bold;
+}
+
+/* ინფათ პაროლის დასასრული */
+
+/* ტელეფონის აიკონის დასაწყისი  */
+.phoneicon{
+  cursor:pointer;
+  position: relative;
+  margin-left:1150px;
+  margin-top:-33px;
+}
+.phoneicon .fa-solid{
+  color:white;
+  font-size:25px;
+  margin-left:-10px;
+}
+
+/* ტელეფონის აიკონის დასასრული  */
+
+
+/* შესვლის დასაწყისი */
+.login{
+  position: relative;
+  top:300px;
+}
+.login button{
+  cursor: pointer;
+  position: absolute;
+  top:-330px;
+  right:200px;
+  width:140px;
+  height:36px;
+  border-radius:20px;
+  border:none;
+  background-color:green;
+  color:white;
+  font-size:17px;
+}
+.login .btn{
+  position:absolute;
+  right:50px;
+  background-color: red;
+}
+/* შესვლის დასასრული */
+
+/* Georgian flag start */
+.georgia img{
+  cursor:pointer;
+  position: absolute;
+  right:2px;
+  top: 22px;
+  width:35px;
+  height:35px;
+}
+/* /* Georgian flag finish */
+
+
+/* main image, section start*/
+.sect img{
+  cursor: pointer;
+  position: relative;
+  margin-top:27px;
+  width:1536px;
+  height:430px
+} 
+
+/* main image, section end */
+
+/* ახალი შავი ფონი (2) */
+
+.color1{
+  margin-top:-4px;
+  width:100%;
+  height:227px;
+  background-color:#00172D;
+  /* background-color:#000B18; */
+  position:relative;
+}
+
+/* შავ ფონზე ჩაყრა ფოტოების, 4 ი ფოტო */
+.color1 img{
+  cursor: pointer;
+  margin-left:150px;
+  margin-top:25px;
+  border-radius:20px;
+}
+.color1 .im{
+  cursor: pointer;
+  margin-left:50px;
+  border-radius:20px;
+}
+.color1 .img{
+  cursor: pointer;
+  margin-left:50px;
+  border-radius:20px;
+
+}
+.color1 .img1{
+  cursor: pointer;
+  margin-left:50px;
+  border-radius:20px;
+}
+/* შავ ფონზე ჩაყრა ფოტოების, 4 ი ფოტოს დასასრული*/
+
+/* arrow icons */
+.icons3{
+  cursor: pointer;
+  width:50px;
+  height:50px;
+  background-color: gray;
+  position: absolute;
+  left:100px;
+  top:250px;
+  color:white;
+  font-size:30px;
+  border-radius:5px;
+}
+.icons3:hover{
+  background-color: red;
+  transition: all 0,3s;
+}
+.icons4:hover{
+  background-color: black;
+  transition: all 0,3s;
+}
+.icons3 .fa-solid{
+  margin-left:10px;
+  margin-top:10px;
+}
+.icons4{
+  cursor: pointer;
+  width:50px;
+  height:50px;
+  background-color: gray;
+  position: absolute;
+  right:100px;
+  top:250px;
+  color:white;
+  font-size:30px;
+  border-radius:5px;
+}
+.icons4 .fa-solid{
+  margin-left:10px;
+  margin-top:10px;
+}
+
+/* arrow icons  finish*/
+
+
+/* sport icon & text start */
+.sporticons p{
+  color:white;
+  font-weight:bold;
+  font-size:25px;
+  margin-left:220px;
+  margin-top:-45px;
+}
+.sporticons img{
+  position: relative;
+  left:150px;
+  margin-top:30px;
+}
+
+/* sport icon & text finish */
+
+/* sports image start */
+.sports img{
+  width:650px;
+  height:400px;
+  border-radius:20px;
+  margin-top:30px;
+  margin-left:150px;
+}
+.sports .img22{
+  position: absolute;
+  right:393px;
+  width:300px;
+}
+/* SPORT text start */
+.combo{
+  position: relative;
+  font-size:20px;
+  color:white;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  left:850px;
+  transform:translateY(-60px);
+  letter-spacing: 1px;
+}
+.live2{ 
+  position: relative;
+  font-size:20px;
+  color:white;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  left:1170px;
+  transform:translateY(-85px);
+}
+/* sport button start */
+.btn button{
+  cursor:pointer;
+  position: absolute;
+  right:50px;
+  top:770px;
+  width:150px;
+  font-size:15px;
+  border-radius:10px;
+  height:40px;
+  background-color:#505050	;
+  color:#B0B0B0;
+  font-weight: bold;
+  border:none;
+}
+.btn button:hover{
+  background-color: red;
+  transition:0.3s;
+}
+/* sport button finish */
+
+/* SPORT text finish */
+.sports .live{
+  position: absolute;
+  right: 20px;
+  width:350px;
+}
+.scan img{
+  cursor:pointer;
+  border-radius:20px;
+  margin-top:10px;
+  margin-left:150px;
+  height:200px;
+  width:1350px;
+}
+
+/* sport image finsih */
+
+/* tablegame button start */
+.tablegame button{
+  position: absolute;
+  right:80px;
+  cursor: pointer;
+  margin-top:113px; 
+  font-size:15px;
+  width:60px;
+  height:37px;
+  background-color:#505050	;
+  color:#B0B0B0;
+  font-weight: bold;
+  border:none;
+  border-radius:5px;
+}
+.tablegame button:hover{
+  background-color: red;
+  transition:0.3s;
+}
+/* tablegame button finish */
+
+
+/* slot icons start */
+.slot{
+  position: absolute; 
+  top:1600px;
+  left:150px;
+}
+.slot .game{
+  font-size:25px;
+  color:white;
+  font-weight:bold;
+  position: absolute;
+  left:70px;
+  top:2px;
+}
+.slot .game1{
+  font-size:25px;
+  color:white;
+  font-weight:bold;
+  position: absolute;
+  left:190px;
+  top: 2px;
+}
+/* ჰიდინგის ქვევით პატარა ტექსტის დასაწყისი */
+.slot div{
+  position:relative;
+  left:70px;
+  margin-top:-20px;
+  color:#B0B0B0;
+  font-weight: bold;
+  
+}
+
+/* ჰიდინგის ქვევით პატარა ტექსტის დასასრული */
+
+.slot .bura{
+  cursor:pointer;
+  position:absolute;
+  top:90px;
+  left:3px;
+  width:620px;
+  height:340px;
+  border-radius:10px;
+}
+.slot .bura2{
+  position:absolute;
+  color:white;
+  font-weight:bold;
+  top:390px;
+  left:30px;
+  font-size:18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.slot .backgamon2{
+  position:absolute;
+  color:white;
+  font-weight:bold;
+  top:390px;
+  left:670px;
+  font-size:18px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.slot .domino2{
+  position:absolute;
+  color:white;
+  font-weight:bold;
+  top:390px;
+  left:1010px;
+  font-size:18px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.slot .backgamon{
+  cursor:pointer;
+  position:absolute;
+  top:90px;
+  left:645px;
+  height:340px;
+  width:310px;
+  border-radius:10px;
+}
+.slot .domino{
+  cursor:pointer;
+  position:absolute;
+  top:90px;
+  left:980px;
+  height:340px;
+  width:310px;
+  border-radius:10px;
+}
+/* slot icons end */
+
+/* kazino icons start */
+.cazino .cazino4{
+  position: relative;
+  margin-left:150px;
+  margin-top:570px;
+  width:50px;
+  height:50px;
+}
+/* cazino btn start */
+.cazinobtn button{
+  position: absolute;
+  right:178px;
+  cursor: pointer;
+  margin-top:580px; 
+  font-size:15px;
+  width:60px;
+  height:37px;
+  background-color:#505050	;
+  color:#B0B0B0;
+  font-weight: bold;
+  border:none;
+  border-radius:5px;
+}
+.cazinobtn button:hover{
+  background-color: red;
+  transition: all 0,3s;
+}
+
+/* cazino btn end */
+
+
+.cazino .cazino2{
+  font-size:25px;
+  color:white;
+  font-weight:bold;
+  margin-left:215px;
+  margin-top:-50px;
+}
+.cazino .roulete{
+  cursor:pointer;
+  position: absolute;
+  left:149px;
+  margin-top:40px;
+  border-radius:10px;
+}
+.cazino .crazy{
+  cursor:pointer;
+  position: absolute;
+  left:455px;
+  margin-top:40px;
+  border-radius:10px;
+}
+.cazino .blackjak{
+  cursor:pointer;
+  position: absolute;
+  left:760px;
+  margin-top:40px;
+  border-radius:10px;
+}
+.cazino .immertroulete{
+  cursor:pointer;
+  position: absolute;
+  left:1065px;
+  margin-top:40px;
+  border-radius:10px;
+}
+/* kazino icons  end */
+
+.roulete5{
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  position: relative;
+  margin-top:300px;
+  left:170px;
+  top:40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.crazyTime{
+  position: relative;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  margin-top:20px;
+  font-family: 'Courier New', Courier, monospace;
+  left:470px;
+}
+
+.blackjack{
+  position:relative;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  margin-top:-24px; 
+  font-family: 'Courier New', Courier, monospace;
+  left:780px;
+}
+
+.roulete2{
+  position: relative;
+  font-size:18px;
+  color:white;
+  font-weight:bold;
+  font-family:'Courier New', Courier, monospace;
+  left:1087px;
+  margin-top:-20px;
+}
+
+/* 
+<!-- სლოტების ფოტოები, აიქონები და ტექსტების
+დასაწყისი :) --> */
+.slotgame{
+  position: relative;
+}
+.slotgame img{
+  position: relative;
+  top:100px;
+  left:140px;
+}
+.slotgame .slott{
+  position: absolute;
+  left:210px;
+  margin-top:43px;
+  color:white;
+  font-weight:bold;
+  font-size:25px;
+}
+.slotgame div{
+  position:absolute;
+  color:#B0B0B0;
+  font-weight: bold;
+  left:210px;
+  margin-top:75px;
+}
+.slotgame  .slotimage img{
+  cursor:pointer;
+  position:absolute;
+  left:-70px;
+  margin-top:-42px;
+  border-radius:10px;
+}
+.slotgame .slotimage .burning{
+  cursor:pointer;
+  position:absolute;
+  left:238px;
+  margin-top:-42px;
+  border-radius:10px;
+}
+.slotgame .slotimage .olympus{
+  cursor:pointer;
+  position:absolute;
+  left:545px;
+  margin-top:-42px;
+  border-radius:10px;
+}
+.slotgame .slotimage .shining{ 
+  cursor:pointer;
+  position:absolute;
+  left:850px;
+  margin-top:-42px;
+  border-radius:10px;
+}
+.slotgame .all4{
+  position: absolute;
+  right:300px;
+  cursor: pointer;
+  margin-top:115px; 
+  font-size:15px;
+  width:60px;
+  height:44px;
+  background-color:#505050	;
+  color:#B0B0B0;
+  font-weight: bold;
+  border:none;
+  border-radius:5px;
+}
+.slotgame .all4:hover{
+  background-color: red;
+  transition:all 0,4s;
+}
+.slotgame .icon{
+  cursor:pointer;
+  position: absolute;
+  left:1236px;
+  margin-top:60px;
+  width:50px;
+  border-radius:5px;
+  height:45px;
+  background-color:#080808;
+}
+.slotgame .icon .fa-solid{
+  font-size:20px;
+  margin-left:17px;
+  margin-top:13px;
+}
+.slotgame .icon:hover{
+  background-color: red;
+  transition:all 0,3s;
+}
+.slotgame .icon2{
+  cursor:pointer;
+  position: absolute;
+  left:1288px;
+  margin-top:60px;
+  width:50px;
+  border-radius:5px;
+  height:45px;
+  background-color: #505050;
+}
+.slotgame .icon2 .fa-solid{
+  font-size:20px;
+  margin-left:17px;
+  margin-top:13px;
+}
+.slotgame .icon2:hover{
+  background-color:black;
+  transition:all 0.3s;
+}
+
+
+
+/* <!-- სლოტების ფოტოები, აიქონები და ტექსტების
+დასასრული :) -->
+
+ */
+
+
+ /* footer კონტაქტების დასაწყისი */
+footer{
+  position: relative;
+  margin-top:550px;
+  width:100%;
+  height:400px;
+  background-color:#282828	;
+}
+
+footer h3{
+  position: absolute;
+  left:170px;
+  top:30px;
+  text-align: center;
+  color:white;
+  font-weight:500;
+}
+.line{
+  position: absolute;
+  left:170px;
+  top:58px;
+  width:50px;
+  height:3px;
+  background-color:red;
+}
+.list2{
+  position:relative;
+}
+.list2 .p{
+  cursor:pointer;
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:#909090;
+  right:560px;
+  top:80px;
+  padding:5px;
+}
+
+.head2{
+  position: relative;
+}
+.head2 h3{
+  position: absolute;
+  left:400px;
+  top:-35px;
+  color:white;
+  font-weight:500;
+}
+.head2 .line2{
+  position: absolute;
+  left:401px;
+  top:-4px;
+  width:50px;
+  height:2px;
+  background-color:red;
+}
+.head2 p{
+  cursor:pointer;
+  position: absolute;
+  left:400px;
+  color:#909090;
+  top:23px;
+}
+.head3{
+  position: relative;
+}
+.head3 h3{
+  position: absolute;
+  left:720px;
+  top:-35px;
+  color:white;
+  font-weight:500;
+}
+.head3 .line3{
+  position: absolute;
+  left:720px;
+  top:-4px;
+  width:50px;
+  height:2px;
+  background-color:red;  
+}
+.head3 .list3{
+  position: relative;
+  color:#909090;
+  right:560px;
+  left:720px;
+  top: 23px;  
+}
+.head3 .list3 p{
+  cursor:pointer;
+  padding:5px;
+}
+
+
+.head4 h3{
+  position: absolute;
+  left:1030px;
+  top:27px;
+  color:white;
+  font-weight:500;
+}
+.head4 .line4{
+    position: absolute;
+    left:1030px;
+    top:55px;
+    width:50px;
+    height:2.5px;
+    background-color:red;  
+  }
+  
+   .head4 .list4{
+    position: absolute;
+    color:#909090;
+    right:349px;
+    top: 85px;  
+  }
+  .head4 .list4 p{
+    padding:5px;
+    cursor:pointer;
+  }
+  .head5 h3{
+    position: absolute;
+    left:1300px;
+    top:27px;
+    color:white;
+    font-weight:500;
+  }
+  .head5 .line5{
+    position: absolute;
+    left:1300px;
+    top:57px;
+    width:50px;
+    height:2.5px;
+    background-color:red;  
+  }
+  .head5 .list5{
+    position: absolute;
+    color:#909090;
+    right:60px;
+    top: 90px;  
+  }
+.head5 .list5 p{ 
+  padding:5px;
+  cursor:pointer;
+}
+hr{
+  margin-top:40px;
+  background-color:#484848;
+}
+
+/* contact img */
+.mastercard{
+  position: absolute;
+  left:400px; 
+  margin-top:30px;
+}
+.num{
+  position: absolute;
+  left:200px;
+  margin-top:55px;
+  width:40px;
+  border-radius:20px;
+  height:40px;
+  background-color:#181818;
+  color:white;
+  font-weight:bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.num .num1{
+  text-align: center;
+  margin-top:10px;
+}
+/* chat system */
+.chat{
+  
+  position: relative;
+  margin-left:1430px;
+  margin-top:25px;
+  width:55px;
+  height:55px;
+  background-color:rgb(255, 0, 0);
+  border-radius:30px;
+}
+.chat .fa-solid{
+  margin-left:13px;
+  margin-top:15px;
+  font-size:22px;
+  color:white;
+  font-weight:bold;
+}
+
+  /* footer კონტაქტების დასასრული */
+
+  /* მეორე html გვერდზე მუშაობა :)
+  მეორე ნავბარის დასაწყისი */
+
+   .navbar{
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right:350px;
+  }
+.navbar a{
+  padding:17px;
+  color:white;
+  font-weight:bold;
+  font-size:16px;
+  margin-top:25px;
+}
+.navbar a:hover{
+ color:red;
+ font-weight:bold;
+ transition:all 0,5s;
+}
+.line{
+  position:absolute;
+  top:125px;
+  left:300px;
+  width:80px;
+  height:3px;
+  background-color:rgba(255, 0, 0, 0.886);
+  font-weight:bold;
+}
+/* search input start */
+form .search{
+  width:240px;
+  height:40px;
+  border-radius:50px;
+  text-indent:20px;
+  font-size:17px;
+  background-color:#303030;
+  border:none;
+  color:white;
+  margin-top:50px;
+  margin-left:20px;
+}
+/* search icon start */
+.newicon .fa-solid{
+  position:absolute;
+  left:225px;
+  margin-top:-30px;
+  font-size:20px;
+  color:white;
+}
+
+/* search input  and icon finish */
+
+/* time filter start */
+.time{
+  position:relative;
+}
+.time p{
+  position:absolute;
+  top:20px;
+  font-size:20px;
+  color:white;
+  font-weight:100;
+  margin-left:20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* time button start */
+
+.time2 .butn{
+  cursor:pointer;
+  position:relative;
+  top:50px;
+  transform:translateX(20px);
+  width:40px;
+  height:35px;
+  color:white;
+  font-weight:100;
+  background-color:#404040;
+  border:none;
+  border-radius:5px;
+}
+.line10{
+  position:absolute;
+  width:41px;
+  height:3px;
+  background-color:red;
+  top:83px;
+  left:19px;
+}
+
+/* time filter end */
+
+/* top league start */
+.topleague{
+  position:relative;
+}
+.topleague .league{
+  position:absolute;
+  top:70px;
+  color:white;
+  font-weight:100;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* top league image start */
+.topleague .champ{
+  width:30px;
+  position:absolute;
+  top:110px;
+  margin-left:20px;
+}
+.topleague .chm{
+  position:absolute;
+  top:115px;
+  left:40px;
+  font-size:17px;
+  color:white;
+  font-weight:500;
+}
+.topleague .evrop{
+  width:30px;
+  position:absolute;
+  top:150px;
+  margin-left:20px;
+}
+.topleague .evro{
+    position:absolute;
+    top:155px;
+    left:40px;
+    font-size:17px;
+    color:white;
+    font-weight:500;
+  }
+  .topleague{
+    cursor:pointer;
+  }
+  .topleague .konfe{
+    width:30px;
+    position:absolute;
+    top:194px;
+    margin-left:20px;
+  }
+  .topleague .konf{
+    position:absolute;
+    top:200px;
+    left:40px;
+    font-size:17px;
+    color:white;
+    font-weight:500;
+  }
+  .topleague .premier{
+    width:30px;
+    position:absolute;
+    top:235px;
+    margin-left:20px;
+  }
+  .topleague .prem{
+    position:absolute;
+    top:242px;
+    left:40px;
+    font-size:17px;
+    color:white;
+    font-weight:500;
+  }
+  .topleague .laliga{
+    width:30px;
+    position:absolute;
+    top:280px;
+    margin-left:20px;
+  }
+  .topleague .lalig{
+    position:absolute;
+    top:284px;
+    left:40px;
+    font-size:17px;
+    color:white;
+    font-weight:500;
+  }
+  .topleague .seria{
+    width:30px;
+    position:absolute;
+    top:318px;
+    margin-left:20px;
+  }
+  .topleague .seri{
+    position:absolute;
+    top:325px;
+    left:40px;
+    font-size:17px;
+    color:white;
+    font-weight:500;
+  }
+  .topleague .bundesliga{
+    width:30px;
+    position:absolute;
+    top:370px;
+    margin-left:20px;
+  }
+  .topleague .bunde{
+    position:absolute;
+    top:370px;
+    left:40px;
+    font-size:17px;
+    color:white;
+    font-weight:500;
+  }
+  .topleague .liga{
+    width:30px;
+    position:absolute;
+    top:403px;
+    margin-left:20px;
+  }
+  .topleague .lig{
+    position:absolute;
+    top:405px;
+    left:40px;
+    font-size:17px;
+    color:white;
+    font-weight:500;
+  }
+  .topleague .world{
+    width:30px;
+    position:absolute;
+    top:437px;
+    height:40px;
+    margin-left:20px;
+  }
+  .topleague .word{
+    position:absolute;
+    top:450px;
+    left:40px;
+    font-size:17px;
+    color:white;
+    font-weight:500;
+  }
+
+/* top league finish */
+  /* Kvara main image start */
+  .Kvaraa{
+    position:relative;
+  }
+  .Kvaraa .kvara{
+    cursor:pointer;
+    margin-top:-120px;
+    left:300px;
+    position: absolute;
+    width:850px;
+    border-radius:10px;
+}
+/* second three image start */
+.twoimage{
+  position:relative;
+}
+.twoimage .golden{
+  position:absolute;
+  top:-30px;
+  right:0px;
+  border-radius:10px;
+}
+.twoimage .combo3{
+  position:absolute;
+  right:0px;
+  border-radius:10px;
+  top:67px;
+}
+.twoimage .freebet{
+  position:absolute;
+  right:0px;
+  border-radius:10px;
+  top:165px;
+}
+/* second three image finish */
+    /* Kvara main image finish */
+
+/* newline start, კვარას ქვევითა ჩამონათვალი */
+
+.newline{
+  position:relative;
+}
+.newline .topmatch{
+  position:absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+  top:90px;
+  left:325px;
+  cursor:pointer;
+}
+.newline .topmatch:hover{
+  color:rgba(255, 0, 0, 0.87);
+  font-weight:bold;
+  cursor:pointer;
+  transition:all 0,4s;
+}
+.newline .live5{
+  cursor:pointer;
+  position:absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:white;
+  font-weight:100;
+  font-size:20px;
+  top:90px;
+  left:490px;
+}
+.newline .live5:hover{
+  color:rgba(255, 0, 0, 0.87);
+  font-weight:bold;
+  transition:all 0,4s;
+  cursor:pointer;
+}
+.newline .lins{
+  position:absolute;
+  width:160px;
+  height:3px;
+  background-color:red;
+  top:120px;
+  left:310px
+}
+
+
+/*all sport start  */
+.allsport{
+  position:relative;
+}
+.allsport .sportss{
+  position:absolute;
+  top:130px;
+  left:305px;
+}
+/*all sport finish  */
+
+/* თანხის გაკეთება დაიწყო */
+.cost{
+  cursor:pointer;
+  position:absolute;
+  width:130px;
+  height:80px;
+  right:250px;
+  border-radius:10px;
+  top:140px;
+  background-color:#E75480;
+}
+.cost2{
+  position:relative;
+}
+.cost2 p{
+  position:absolute;
+  right:290px;
+  top:-105px;
+  color:white;
+  font-weight:100;
+  font-size:20px;
+}
+.cost2 .nothing{
+  position:absolute;
+  right:287px;
+  top:-70px;
+  color:white;
+  font-weight:200;
+  font-size:17px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* თანხის გაკეთება დასასრული */
+
+/* freebet გაკეთება დასაწყისი */
+.freebet2{
+  cursor:pointer;
+  position:absolute;
+  width:130px;
+  height:80px;
+  right:120px;
+  border-radius:10px;
+  top:140px;
+  background-color:#282828;
+}
+.freebet2:hover{
+  background-color:aqua;
+}
+.makefreebet:hover{
+  background-color:aqua;
+}
+
+
+.makefreebet{
+  position:relative;
+}
+
+.makefreebet p{
+  position:absolute;
+  right:140px;
+  top:-105px;
+  color:white;
+  font-weight:100;
+  font-size:20px;
+}
+.makefreebet .more{
+  position:absolute;
+  right:160px;
+  top:-70px;
+  color:white;
+  font-weight:200;
+  font-size:17px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.freesport2{
+  cursor:pointer;
+  position:absolute;
+  background-color:#282828;
+  border-radius:10px;
+  width:130px;
+  height:80px;
+  right:-10.5px;
+  top:140px;
+}
+.freeeverything{
+  position:relative;
+}
+.freeeverything .sp{
+  position:absolute;
+  right:25px;
+  color:white;
+  font-weight:100;
+  top:-120px;
+  padding:5px;
+  font-size:18px;
+  
+}
+.freeeverything .sp1{
+  position:absolute;
+  right:20px;
+  color:white;
+  font-weight:100;
+  top:-96px;
+  padding:5px;
+  font-size:18px; 
+}
+.freeeverything .price{
+  position:absolute;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  right:30px;
+  color:white;
+  font-weight:100;
+  top:-70px;
+  padding:5px;
+  font-size:16px; 
+}
+.freeeverything .price2{
+  position:absolute;
+  right:12px;
+   border-radius:20px;
+   width:15px;
+   margin-top:-60px;
+}
+.freesport2:hover{
+  background-color:red;
+}
+
+.frb{
+  position:absolute;
+  left:1365px;
+  width:25px;
+  margin-top:-70px;
+}
+/* freebet გაკეთება დასასრული */
+
+/* final ticket image start*/
+main img{
+  width:400px;
+  margin-left:325px;
+  margin-top:230px;
+  width:808px;
+}
+/* final ticket image finish*/
+
+
+
+
+
+
+
